@@ -22,6 +22,6 @@ let package = Package(
             swiftSettings: [.interoperabilityMode(.C)]
         ),
     ],
-    swiftLanguageVersions: [.v6],
+    swiftLanguageModes: [.v6],
     cLanguageStandard: .c17
 )
