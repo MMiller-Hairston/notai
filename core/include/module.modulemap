@@ -1,0 +1,5 @@
+module libnotai {
+    header "libnotai.h"
+
+    export *
+}

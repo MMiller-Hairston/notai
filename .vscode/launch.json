@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:notai}",
+      "name": "Debug NotAi",
+      "target": "NotAi",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug NotAi"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:notai}",
+      "name": "Release NotAi",
+      "target": "NotAi",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release NotAi"
+    }
+  ]
+}
